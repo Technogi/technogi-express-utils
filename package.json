@@ -1,0 +1,41 @@
+{
+  "name": "technogi-express-utils",
+  "version": "0.0.5",
+  "description": "Utils for express",
+  "main": "lib/index.js",
+  "typings": "lib/index",
+  "scripts": {
+    "run": "ts-node ./src/index.ts",
+    "prepublishOnly": "tsc -p ./ --outDir lib/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Technogi/technogi-express-utils.git"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "config"
+  ],
+  "author": "carlos@technogi.com.mx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Technogi/technogi-express-utils/issues"
+  },
+  "homepage": "https://github.com/Technogi/technogi-express-utils#readme",
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "@types/express": "4.0.37",
+    "@types/jsonwebtoken": "7.2.3",
+    "@types/node": "8.0.34",
+    "ntypescript": "1.201706190042.1",
+    "ts-node": "3.3.0",
+    "typescript": "2.5.3"
+  },
+  "dependencies": {
+    "debug": "3.1.0",
+    "express": "4.16.2",
+    "jsonwebtoken": "8.1.0"
+  }
+}
